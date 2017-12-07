@@ -1,0 +1,20 @@
+difi helman jeszcze bedzie
+podpis DSA
+i ślepy podpis to co dzisiaj było
+
+
+
+
+trzeba by zrobić tak DSA:
+użyć tego:
+https://github.com/Legrandin/pycryptodome/blob/master/lib/Crypto/PublicKey/DSA.py
+stad generujemy klucz jak w RSA
+
+
+trzeba zrobić obiekt DSS.new(), ale trzeba skads indziej zabrac klucz
+DSA.new(key,'deterministic-rfc6979') albo drugi (sprwadzic w dokumentacji)
+
+
+https://github.com/Legrandin/pycryptodome/blob/master/lib/Crypto/Signature/DSS.py
+DSS.new(key,'deterministic-rfc6979')
+
